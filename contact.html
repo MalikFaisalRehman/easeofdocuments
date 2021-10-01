@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EaseOfDocuments</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/phone.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script>
+    function toggler() {
+    document.getElementById('items').classList.toggle('active')
+    }
+    function toggler1() {
+    document.getElementById('btn').classList.toggle('active')
+    }
+  </script>
+</head>
+<body>
+<div id="section1-navigation"><a href="#"><img src="images/navigation/navigation logo.png" alt="EaseOfDocuments"></a>
+  <div id="sidebar" onclick="toggler()">
+    <div id="btn" onclick="toggler1()"><span class="s1"></span><span class="s2"></span><span class="s3"></span></div>
+  </div>
+  <div id="items">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Services</a></li>
+      <li><a href="index.html">Clients</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</div>
+<div id="section5-contact">
+  <div class="heading">
+    <h1>Contact Us</h1>
+  </div>
+  <div class="form">
+    <form action="/contact" method="post">
+      <input type="text" name="name" placeholder="Enter Your Name">
+      <input type="phone" name="phone" placeholder="Enter Your Phone">
+      <input type="email" name="email" placeholder="Enter Your Email">
+      <input type="text" name="address" placeholder="Enter Your Address">
+      <textarea name="descript" cols="30" rows="10" placeholder="Enter Something You Want"></textarea>
+      
+        <a href="sumbitted.html" target="_blank" id="button">
+          Submit
+        </a>
+      
+    </form>
+  </div>
+</div>
+<footer>copyright © 2021 www.easeofdocuments.com | All Rights Reserved</footer>
+</body>

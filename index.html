@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EaseOfDocuments</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/phone.css">
+  
+  <script>
+    function toggler() {
+    document.getElementById('items').classList.toggle('active')
+    }
+    function toggler1() {
+    document.getElementById('btn').classList.toggle('active')
+    }
+  </script>
+</head>
+<body>
+<div id="section1-navigation"><a href="#"><img src="images/navigation/navigation logo.png" alt="EaseOfDocuments"></a>
+  <div id="sidebar" onclick="toggler()">
+    <div id="btn" onclick="toggler1()"><span class="s1"></span><span class="s2"></span><span class="s3"></span></div>
+  </div>
+  <div id="items">
+    <ul>
+      <li><a href="#section2-home">Home</a></li>
+      <li><a href="#section3-services">Services</a></li>
+      <li><a href="#section4-clients">Clients</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</div>
+<div id="section2-home">
+  <h2>Welcome To EOD</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi alias in eum, numquam culpa cum laudantium.
+    Ipsam minima officiis consectetur delectus quos, animi autem!
+  </p>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam laborum minus odit in, eaque amet error
+    dolores!
+  </p>
+</div>
+<div id="section3-services">
+  <h1>Our Services</h1>
+  <div class="boxes">
+    <div class="box1"><img src="images/services/services-logo1.png">
+      <h3>Compile</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolores ullam architecto
+        tempora esse, debitis iste? Architecto, repellendus amet quaerat blanditiis cupiditate enim
+        veniam doloribus?
+      </p>
+    </div>
+    <div class="box2"><img src="images/services/services-logo2.png">
+      <h3>Uploading</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolores ullam architecto
+        tempora esse, debitis iste? Architecto, repellendus amet quaerat blanditiis cupiditate enim
+        veniam doloribus?
+      </p>
+    </div>
+    <div class="box3"><img src="images/services/services-logo3.png">
+      <h3>Saving</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolores ullam architecto
+        tempora
+        esse, debitis iste? Architecto, repellendus amet quaerat blanditiis cupiditate enim veniam
+        doloribus?
+      </p>
+    </div>
+  </div>
+</div>
+<div id="section4-clients">
+  <div class="heading">
+    <h1>Our Clients</h1>
+  </div>
+  <div class="client"><img src="images/about/about-logo1.png"><img src="images/about/about-logo2.png"><img src="images/about/about-logo3.png"><img src="images/about/about-logo4.png"></div>
+</div>
+<footer>copyright © 2021 www.easeofdocuments.com | All Rights Reserved</footer> 
+</body>
